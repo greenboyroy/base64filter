@@ -18,7 +18,7 @@ Base 64 Filter works on Craft 2.4.x and Craft 2.5.x.
 
 Use this filter just like any other twig filter:
 
-`<p>{{ product.secretCode || baseSixFour }}</p>`
+`<p>{{ product.secretCode | baseSixFour }}</p>`
 
 
 Brought to you by [Mark Greenwood](https://twitter.com/greenboyroy)
